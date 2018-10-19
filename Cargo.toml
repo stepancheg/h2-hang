@@ -1,8 +1,12 @@
 [package]
-name = "h2-httpbis"
+name = "h2-hang"
 version = "0.1.0"
 authors = ["Stepan Koltsov <stepan.koltsov@gmail.com>"]
 
 [dependencies]
-httpbis = { git = "https://github.com/stepancheg/rust-http2" }
 h2      = { git = "https://github.com/carllerche/h2/" }
+futures = "0.1.*"
+tokio   = "0.1.*"
+http    = "0.1.8"
+env_logger = { version = "0.5.3", default-features = false }
+bytes = "0.4.7"
