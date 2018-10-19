@@ -1,0 +1,8 @@
+[package]
+name = "h2-httpbis"
+version = "0.1.0"
+authors = ["Stepan Koltsov <stepan.koltsov@gmail.com>"]
+
+[dependencies]
+httpbis = { git = "https://github.com/stepancheg/rust-http2" }
+h2      = { git = "https://github.com/carllerche/h2/" }
